@@ -20,9 +20,7 @@ $array = loadData();
 </html>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
     addData($_POST);
-//    sapxep($array);
 }
 
 ?>

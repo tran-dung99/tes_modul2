@@ -1,5 +1,4 @@
 <?php
-$array = [];
 function saveData($data)
 {
     $dataJson = json_encode($data);
