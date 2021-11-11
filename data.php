@@ -15,5 +15,10 @@ function addData($request) {
     $number = $request["number"];
     array_push($array,$number);
     saveData($array);
+
+}
+function sapxep($arr){
+    sort($arr);
+    print_r($arr);
 }
 

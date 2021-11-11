@@ -22,8 +22,7 @@ include_once "data.php";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $array = loadData();
     addData($_POST);
-    sort($array);
-    print_r($array);
+    sapxep($array);
 }
 ?>
 
