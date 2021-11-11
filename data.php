@@ -14,6 +14,7 @@ function addData($request) {
     $array = loadData();
     $number = $request["number"];
     array_push($array,$number);
+    sapxep($array);
     saveData($array);
 
 }

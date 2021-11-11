@@ -1,6 +1,6 @@
 <?php
 include_once "data.php";
-
+$array = loadData();
 ?>
 <!doctype html>
 <html lang="en">
@@ -20,9 +20,10 @@ include_once "data.php";
 </html>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $array = loadData();
+
     addData($_POST);
-    sapxep($array);
+//    sapxep($array);
 }
+
 ?>
 
